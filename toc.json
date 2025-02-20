@@ -1,0 +1,744 @@
+{
+  "collapseTableOfContents": false,
+  "items": [
+    {
+      "type": "item",
+      "title": "Skaleet Developer Portal",
+      "uri": "/docs/welcome.md"
+    },
+    {
+      "type": "divider",
+      "title": "acceptor"
+    },
+    {
+      "type": "item",
+      "title": "API error codes signification",
+      "uri": "/docs/acceptor/error-codes.md"
+    },
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "/docs/acceptor/getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "How to authenticate on Acceptor API",
+      "uri": "/docs/acceptor/oauth2-authorization.md"
+    },
+    {
+      "type": "item",
+      "title": "Server Sent Events",
+      "uri": "/docs/acceptor/server-sent-events.md"
+    },
+    {
+      "type": "divider",
+      "title": "admin"
+    },
+    {
+      "type": "item",
+      "title": "Pre-requisites",
+      "uri": "/docs/admin/oauth2-authorization.md"
+    },
+    {
+      "type": "item",
+      "title": "Search requests",
+      "uri": "/docs/admin/search-requests.md"
+    },
+    {
+      "type": "divider",
+      "title": "article"
+    },
+    {
+      "type": "item",
+      "title": "Articles",
+      "uri": "/docs/article/Articles.md"
+    },
+    {
+      "type": "divider",
+      "title": "authentication"
+    },
+    {
+      "type": "item",
+      "title": "Authentication methods across APIs",
+      "uri": "/docs/authentication/auth-methods-summary.md"
+    },
+    {
+      "type": "divider",
+      "title": "client"
+    },
+    {
+      "type": "item",
+      "title": "API error codes signification",
+      "uri": "/docs/client/error-codes.md"
+    },
+    {
+      "type": "item",
+      "title": "Language management in requests",
+      "uri": "/docs/client/language-management.md"
+    },
+    {
+      "type": "item",
+      "title": "OAuth2 authorization processes in Client API",
+      "uri": "/docs/client/oauth2-authorization.md"
+    },
+    {
+      "type": "item",
+      "title": "Advices concerning the API client User-Agent",
+      "uri": "/docs/client/user-agent.md"
+    },
+    {
+      "type": "item",
+      "title": "Virtual keyboard mechanism for client secret code management",
+      "uri": "/docs/client/virtual-keyboard.md"
+    },
+    {
+      "type": "divider",
+      "title": "distributor"
+    },
+    {
+      "type": "item",
+      "title": "Distributor API",
+      "uri": "/docs/distributor/description.md"
+    },
+    {
+      "type": "item",
+      "title": "Getting started with the Distributor API",
+      "uri": "/docs/distributor/getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "Authentication",
+      "uri": "/docs/distributor/oauth2-authorization.md"
+    },
+    {
+      "type": "divider",
+      "title": "interbanking"
+    },
+    {
+      "type": "item",
+      "title": "Getting started with the Standard Interbanking API",
+      "uri": "/docs/interbanking/getting-started.md"
+    },
+    {
+      "type": "item",
+      "title": "How to authenticate on Interbanking API",
+      "uri": "/docs/interbanking/oauth2-authorization.md"
+    },
+    {
+      "type": "divider",
+      "title": "product"
+    },
+    {
+      "type": "item",
+      "title": "Customer Accounts",
+      "uri": "/docs/product/accounts-product.md"
+    },
+    {
+      "type": "item",
+      "title": "Cards",
+      "uri": "/docs/product/cards-product.md"
+    },
+    {
+      "type": "item",
+      "title": "Risk and Compliance",
+      "uri": "/docs/product/compliance-product.md"
+    },
+    {
+      "type": "item",
+      "title": "Core Configurations",
+      "uri": "/docs/product/core-product.md"
+    },
+    {
+      "type": "item",
+      "title": "General concepts of the Skaleet platform",
+      "uri": "/docs/product/getting-started-product.md"
+    },
+    {
+      "type": "item",
+      "title": "Payments",
+      "uri": "/docs/product/payments-product.md"
+    },
+    {
+      "type": "item",
+      "title": "Users",
+      "uri": "/docs/product/users-product.md"
+    },
+    {
+      "type": "divider",
+      "title": "technical details"
+    },
+    {
+      "type": "item",
+      "title": "Building your backend",
+      "uri": "/docs/technical details/building-backend.md"
+    },
+    {
+      "type": "item",
+      "title": "Data Types Representations",
+      "uri": "/docs/technical details/data-type-representations.md"
+    },
+    {
+      "type": "item",
+      "title": "Events and Webhooks",
+      "uri": "/docs/technical details/event-webhooks.md"
+    },
+    {
+      "type": "item",
+      "title": "Requests and responses content",
+      "uri": "/docs/technical details/requests-responses-content.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "Calculation",
+      "uri": "/calculation-engine.yml"
+    },
+    {
+      "type": "item",
+      "title": "Credit Module API",
+      "uri": "/credit.yml"
+    },
+    {
+      "type": "item",
+      "title": "Interbanking API (deprecated, reserved to SEPA usage).",
+      "uri": "/interbanking.yml"
+    },
+    {
+      "type": "item",
+      "title": "Moneypot API",
+      "uri": "/moneypot.yml"
+    },
+    {
+      "type": "item",
+      "title": "API Proxy PCI-DSS for payment cards (Beta7)",
+      "uri": "/proxypci.yml"
+    },
+    {
+      "type": "item",
+      "title": "Card Authorization API",
+      "uri": "/sae.yml"
+    },
+    {
+      "type": "item",
+      "title": "Standard Interbanking API",
+      "uri": "/standard_interbanking.yml"
+    },
+    {
+      "type": "item",
+      "title": "WebInterface API",
+      "uri": "/webinterface.yml"
+    },
+    {
+      "type": "item",
+      "title": "Acceptor API",
+      "uri": "/acceptor.yml"
+    },
+    {
+      "type": "item",
+      "title": "Skaleet platform webhooks reference.",
+      "uri": "/webhooks.yml"
+    },
+    {
+      "type": "item",
+      "title": "Admin API",
+      "uri": "/admin.yml"
+    },
+    {
+      "type": "item",
+      "title": "Client API",
+      "uri": "/client.yml"
+    },
+    {
+      "type": "item",
+      "title": "Company API",
+      "uri": "/company.yml"
+    },
+    {
+      "type": "item",
+      "title": "Distributor API",
+      "uri": "/distributor.yml"
+    },
+    {
+      "type": "item",
+      "title": "NextGenPSD2 XS2A Framework",
+      "uri": "/psd2-xs2a.yml"
+    },
+    {
+      "type": "item",
+      "title": "Savings",
+      "uri": "/savings.yml"
+    },
+    {
+      "type": "item",
+      "title": "Service Domain API",
+      "uri": "/service-domain.yml"
+    },
+    {
+      "type": "divider",
+      "title": "Schemas"
+    },
+    {
+      "type": "item",
+      "title": "Account",
+      "uri": "/Account.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountAdditionalData",
+      "uri": "/AccountAdditionalData.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountBalance",
+      "uri": "/AccountBalance.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountBalances",
+      "uri": "/AccountBalances.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountExternalId",
+      "uri": "/AccountExternalId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountExternalReference",
+      "uri": "/AccountExternalReference.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountId",
+      "uri": "/AccountId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountingEntryId",
+      "uri": "/AccountingEntryId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountingEntryType",
+      "uri": "/AccountingEntryType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountNumber",
+      "uri": "/AccountNumber.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountOverdraft",
+      "uri": "/AccountOverdraft.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountOwner",
+      "uri": "/AccountOwner.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Accounts",
+      "uri": "/Accounts.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountStatus",
+      "uri": "/AccountStatus.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AccountType",
+      "uri": "/AccountType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Amount",
+      "uri": "/Amount.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Amount [deprecated] [currency numeric]",
+      "uri": "/AmountWithCurrencyNumeric.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Amount [deprecated] [display][numeric currency]",
+      "uri": "/AmountWithCurrencyNumericAndDisplay.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Amount [display][alphabetic currency]",
+      "uri": "/AmountWithDisplay.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AssociatedIdentity",
+      "uri": "/AssociatedIdentity.yaml"
+    },
+    {
+      "type": "item",
+      "title": "AuthenticationMethodType",
+      "uri": "/AuthenticationMethodType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "BalanceType",
+      "uri": "/BalanceType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "BIC",
+      "uri": "/BIC.yaml"
+    },
+    {
+      "type": "item",
+      "title": "BlockingVelocityRule",
+      "uri": "/BlockingVelocityRule.yaml"
+    },
+    {
+      "type": "item",
+      "title": "CardFeatureId",
+      "uri": "/CardFeatureId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Card ID",
+      "uri": "/CardId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "CardLimits",
+      "uri": "/CardLimits.yaml"
+    },
+    {
+      "type": "item",
+      "title": "CardLinksCollection",
+      "uri": "/CardLinksCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Collection",
+      "uri": "/Collection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Country",
+      "uri": "/Country.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Currency (alpha)",
+      "uri": "/CurrencyAlpha.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Currency (numeric)",
+      "uri": "/CurrencyNumeric.yaml"
+    },
+    {
+      "type": "item",
+      "title": "InternalId",
+      "uri": "/CustomerInstructionInternalId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Date-Time",
+      "uri": "/DateTime.yaml"
+    },
+    {
+      "type": "item",
+      "title": "DocumentType",
+      "uri": "/DocumentType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Duration",
+      "uri": "/Duration.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Error",
+      "uri": "/Error.yaml"
+    },
+    {
+      "type": "item",
+      "title": "External data",
+      "uri": "/ExternalData.yaml"
+    },
+    {
+      "type": "item",
+      "title": "ExternalId",
+      "uri": "/ExternalId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "GeoLocation",
+      "uri": "/GeoLocation.yaml"
+    },
+    {
+      "type": "item",
+      "title": "GeoLocationMode",
+      "uri": "/GeoLocationMode.yaml"
+    },
+    {
+      "type": "item",
+      "title": "IBAN",
+      "uri": "/IBAN.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Identity",
+      "uri": "/Identity.yaml"
+    },
+    {
+      "type": "item",
+      "title": "IdentityCollection",
+      "uri": "/IdentityCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "IdentityId",
+      "uri": "/IdentityId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Identity role",
+      "uri": "/IdentityRole.yaml"
+    },
+    {
+      "type": "item",
+      "title": "IdentityStatusEnum",
+      "uri": "/IdentityStatusEnum.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Interbanking Reference type",
+      "uri": "/InterbankingReferenceType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Iso20022AccountBalances",
+      "uri": "/Iso20022AccountBalances.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Kyc",
+      "uri": "/Kyc.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Lang",
+      "uri": "/Lang.yaml"
+    },
+    {
+      "type": "item",
+      "title": "LegalType",
+      "uri": "/LegalType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Link",
+      "uri": "/Link.yaml"
+    },
+    {
+      "type": "item",
+      "title": "OnboardingStatus",
+      "uri": "/OnboardingStatus.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Card Operation Type",
+      "uri": "/OperationType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Collection with pagination",
+      "uri": "/PaginatedCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "PaymentTransactionInternalId",
+      "uri": "/PaymentTransactionInternalId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "PendingManagementOperation",
+      "uri": "/PendingManagementOperation.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Periodicity",
+      "uri": "/Periodicity.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Phone",
+      "uri": "/Phone.yaml"
+    },
+    {
+      "type": "item",
+      "title": "ProductId",
+      "uri": "/ProductId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "ProfileId",
+      "uri": "/ProfileId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "ReadOnlyIdentityId",
+      "uri": "/ReadOnlyIdentityId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Recipient",
+      "uri": "/Recipient.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RecipientAddress",
+      "uri": "/RecipientAddress.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RecipientCollection",
+      "uri": "/RecipientCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RecipientId",
+      "uri": "/RecipientId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Relation",
+      "uri": "/Relation.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationCollection",
+      "uri": "/RelationCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationId",
+      "uri": "/RelationId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationNature",
+      "uri": "/RelationNature.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationNatureCollection",
+      "uri": "/RelationNatureCollection.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationNatureId",
+      "uri": "/RelationNatureId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "RelationSide",
+      "uri": "/RelationSide.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Subnetwork",
+      "uri": "/Subnetwork.yaml"
+    },
+    {
+      "type": "item",
+      "title": "TransactionAttachmentId",
+      "uri": "/TransactionAttachmentId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "TransactionType",
+      "uri": "/TransactionType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "UserProfileOwner",
+      "uri": "/UserProfileOwner.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityBatchId",
+      "uri": "/VelocityBatchId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityCalendarPeriod",
+      "uri": "/VelocityCalendarPeriod.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityCalendarPeriodicity",
+      "uri": "/VelocityCalendarPeriodicity.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Velocity Pre-check result",
+      "uri": "/VelocityPreCheck.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRollingPeriod",
+      "uri": "/VelocityRollingPeriod.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleBase",
+      "uri": "/VelocityRuleBase.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleId",
+      "uri": "/VelocityRuleId.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRulePeriod",
+      "uri": "/VelocityRulePeriod.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleType",
+      "uri": "/VelocityRuleType.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleWithAmountLimit",
+      "uri": "/VelocityRuleWithAmountLimit.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleWithAmountLimitAndValue",
+      "uri": "/VelocityRuleWithAmountLimitAndValue.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleWithTransactionNumberLimit",
+      "uri": "/VelocityRuleWithTransactionNumberLimit.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleWithTransactionNumberLimitAndValue",
+      "uri": "/VelocityRuleWithTransactionNumberLimitAndValue.yaml"
+    },
+    {
+      "type": "item",
+      "title": "VelocityRuleWithValue",
+      "uri": "/VelocityRuleWithValue.yaml"
+    }
+  ]
+}

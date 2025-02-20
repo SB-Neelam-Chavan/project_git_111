@@ -1,0 +1,6 @@
+title: ProductId
+x-stoplight:
+  id: ewth78nc6600z
+type: string
+description: Product identifier.
+example: PRO123

@@ -1,0 +1,21 @@
+title: RecipientCollection
+x-stoplight:
+  id: q7sf4x1u99m8l
+description: Sorted and paginated list of recipients
+allOf:
+  - $ref: ./PaginatedCollection.yaml
+    x-stoplight:
+      id: u0touf01d3fp9
+  - type: object
+    properties:
+      items:
+        type: array
+        description: collection of recipients
+        items:
+          $ref: ./Recipient.yaml
+          x-stoplight:
+            id: 6w1p9wcck7ajg
+        x-stoplight:
+          id: nwitbrbutxrrb
+    x-stoplight:
+      id: ezagm372n7ybv

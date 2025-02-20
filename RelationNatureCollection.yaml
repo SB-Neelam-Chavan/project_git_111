@@ -1,0 +1,21 @@
+title: RelationNatureCollection
+x-stoplight:
+  id: bmbgy9yuynmuy
+description: Sorted and paginated list of relation natures
+allOf:
+  - $ref: ./PaginatedCollection.yaml
+    x-stoplight:
+      id: zsd75wbhnxidu
+  - type: object
+    properties:
+      items:
+        type: array
+        description: collection of relation natures
+        items:
+          $ref: ./RelationNature.yaml
+          x-stoplight:
+            id: 4gm9ri1senz2u
+        x-stoplight:
+          id: nfi7hxiljba8w
+    x-stoplight:
+      id: od9x2a4mir47r

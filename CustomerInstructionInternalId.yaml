@@ -1,0 +1,6 @@
+title: InternalId
+x-stoplight:
+  id: zhyuj0iz44isp
+type: string
+description: Internal reference of the customer instruction with the platform
+example: 10027
