@@ -1,0 +1,66 @@
+title: Collection with pagination
+x-stoplight:
+  id: w5rdo778hvxya
+allOf:
+  - $ref: ./Collection.yaml
+    x-stoplight:
+      id: mk9n8davibx9h
+  - type: object
+    required:
+      - count
+      - offset
+      - limit
+    properties:
+      count:
+        type: integer
+        description: Total count of objects in collection.
+        minimum: 0
+        x-stoplight:
+          id: iw135qyivv62h
+      offset:
+        type: integer
+        description: Pagination start (from 0)
+        minimum: 0
+        default: 0
+        x-stoplight:
+          id: m74fvjta4ho3y
+      limit:
+        type: integer
+        description: Number of results to display.
+        minimum: 0
+        maximum: 100
+        default: 20
+        x-stoplight:
+          id: 5iwjjrwp0jjx0
+      sort:
+        type: string
+        description: |
+          Field to define sort order (if supported). Supported prefix are:
+            * `+` for ascending order,
+            * `-` for descending order.
+        example: +id
+        x-stoplight:
+          id: nvk1anrn4jhn9
+      links:
+        type: array
+        readOnly: true
+        description: |
+          Can contain the following actions (identified by their `rel` attribute):
+            * `getCurrentPage` [GET] Load the current collection page
+            * `getNextPage` [GET] Load the next collection page, if any
+            * `getPreviousPage` [GET] Load the previous collection page, if any
+        items:
+          $ref: ./Link.yaml
+          x-stoplight:
+            id: 637fzpq6s6a2m
+        example:
+          - rel: getCurrentPage
+            href: 'https://api.skaleet.com/api/page?limit=20&offset=40'
+          - rel: getNextPage
+            href: 'https://api.skaleet.com/api/page?limit=20&offset=60'
+          - rel: getPreviousPage
+            href: 'https://api.skaleet.com/api/page?limit=20&offset=20'
+        x-stoplight:
+          id: jhnt9s7jl3xad
+    x-stoplight:
+      id: na2j29gomfoen

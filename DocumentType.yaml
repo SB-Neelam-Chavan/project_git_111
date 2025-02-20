@@ -1,0 +1,68 @@
+title: DocumentType
+x-stoplight:
+  id: 9ewpsdys78ffg
+type: object
+properties:
+  code:
+    type: string
+    example: PASPOR
+    x-stoplight:
+      id: h3z2xuyif246q
+  name:
+    type: string
+    example: Passport
+    x-stoplight:
+      id: ob4x4kwksp03z
+  legalType:
+    type: string
+    enum:
+      - NATURAL_PERSON
+      - LEGAL_ENTITY
+    x-stoplight:
+      id: meg9x7nbq6tmi
+  originType:
+    type: string
+    enum:
+      - PREDEFINED
+      - CUSTOM
+    example: CUSTOM
+    x-stoplight:
+      id: 5sc5rt9r8mslx
+  isReceived:
+    type: boolean
+    example: false
+    x-stoplight:
+      id: kzh6hrvms0x52
+  isGenerated:
+    type: boolean
+    example: false
+    x-stoplight:
+      id: iinupoyn9p78v
+  authorizedFormats:
+    type: array
+    example:
+      - image/jpeg
+      - image/png
+      - image/gif
+      - application/pdf
+    items:
+      type: string
+      enum:
+        - image/jpeg
+        - image/png
+        - image/gif
+        - application/pdf
+      x-stoplight:
+        id: 1gf6f7auy0m95
+    x-stoplight:
+      id: fc21iiwpk8t7q
+  mandatoryPages:
+    type: integer
+    example: 1
+    x-stoplight:
+      id: f7lk22nprm69h
+  optionnalPages:
+    type: integer
+    example: 0
+    x-stoplight:
+      id: gcbha7sdink1t

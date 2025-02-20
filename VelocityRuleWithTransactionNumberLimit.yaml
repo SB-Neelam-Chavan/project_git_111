@@ -1,0 +1,17 @@
+title: VelocityRuleWithTransactionNumberLimit
+x-stoplight:
+  id: xi0rz26pcev70
+allOf:
+  - $ref: ./VelocityRuleBase.yaml
+    x-stoplight:
+      id: t307uvr8c6nrc
+  - type: object
+    properties:
+      limitValue:
+        type: integer
+        description: Maximum transaction limit configured for the rule
+        example: 100
+        x-stoplight:
+          id: oh8ds3kfxnzhe
+    x-stoplight:
+      id: rn9iujhtfrcca
